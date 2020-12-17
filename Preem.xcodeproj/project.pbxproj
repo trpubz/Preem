@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		2515B9CB258BE8FE00801369 /* PreemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9CA258BE8FE00801369 /* PreemTests.swift */; };
 		2515B9D6258BE8FE00801369 /* PreemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9D5258BE8FE00801369 /* PreemUITests.swift */; };
 		2515B9E9258BFA6F00801369 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2515B9E8258BFA6F00801369 /* CloudKit.framework */; };
+		25A0E88D258C0B0B008F35BA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E88B258C0B0B008F35BA /* Fonts.swift */; };
+		25A0E88E258C0B0B008F35BA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E88C258C0B0B008F35BA /* Colors.swift */; };
 		8A5175DCAFC6A68DBE9C9809 /* Pods_PreemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B713628F186F99EA51C3573E /* Pods_PreemTests.framework */; };
 		B2FB14ED77EC38EA31065D13 /* Pods_Preem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		2515B9D7258BE8FE00801369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2515B9E6258BF9A200801369 /* Preem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Preem.entitlements; sourceTree = "<group>"; };
 		2515B9E8258BFA6F00801369 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		25A0E88B258C0B0B008F35BA /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		25A0E88C258C0B0B008F35BA /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		27F601FFAE659D3B08169A5B /* Pods-PreemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreemTests.release.xcconfig"; path = "Target Support Files/Pods-PreemTests/Pods-PreemTests.release.xcconfig"; sourceTree = "<group>"; };
 		2DA7B9C5C38357CFB622781F /* Pods-Preem-PreemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem-PreemUITests.release.xcconfig"; path = "Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests.release.xcconfig"; sourceTree = "<group>"; };
 		330BFEDBA23D4607FE080925 /* Pods-PreemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreemTests.debug.xcconfig"; path = "Target Support Files/Pods-PreemTests/Pods-PreemTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +105,6 @@
 				330BFEDBA23D4607FE080925 /* Pods-PreemTests.debug.xcconfig */,
 				27F601FFAE659D3B08169A5B /* Pods-PreemTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +133,7 @@
 		2515B9B7258BE8FD00801369 /* Preem */ = {
 			isa = PBXGroup;
 			children = (
+				25A0E889258C0AFB008F35BA /* Models */,
 				2515B9E6258BF9A200801369 /* Preem.entitlements */,
 				2515B9B8258BE8FD00801369 /* PreemApp.swift */,
 				2515B9BA258BE8FD00801369 /* ContentView.swift */,
@@ -175,6 +179,23 @@
 				B713628F186F99EA51C3573E /* Pods_PreemTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25A0E889258C0AFB008F35BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25A0E88A258C0B0B008F35BA /* Asset Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25A0E88A258C0B0B008F35BA /* Asset Models */ = {
+			isa = PBXGroup;
+			children = (
+				25A0E88B258C0B0B008F35BA /* Fonts.swift */,
+				25A0E88C258C0B0B008F35BA /* Colors.swift */,
+			);
+			path = "Asset Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +436,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2515B9BB258BE8FD00801369 /* ContentView.swift in Sources */,
+				25A0E88E258C0B0B008F35BA /* Colors.swift in Sources */,
+				25A0E88D258C0B0B008F35BA /* Fonts.swift in Sources */,
 				2515B9B9258BE8FD00801369 /* PreemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
