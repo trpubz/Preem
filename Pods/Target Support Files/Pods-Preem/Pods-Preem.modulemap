@@ -1,0 +1,6 @@
+framework module Pods_Preem {
+  umbrella header "Pods-Preem-umbrella.h"
+
+  export *
+  module * { export * }
+}

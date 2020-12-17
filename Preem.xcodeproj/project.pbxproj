@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EE3F9B1D129193ABF5373AC /* Pods_Preem_PreemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F25FB3A74F54C1731C74F8 /* Pods_Preem_PreemUITests.framework */; };
 		2515B9B9258BE8FD00801369 /* PreemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9B8258BE8FD00801369 /* PreemApp.swift */; };
 		2515B9BB258BE8FD00801369 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9BA258BE8FD00801369 /* ContentView.swift */; };
 		2515B9BD258BE8FE00801369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2515B9BC258BE8FE00801369 /* Assets.xcassets */; };
 		2515B9C0258BE8FE00801369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2515B9BF258BE8FE00801369 /* Preview Assets.xcassets */; };
 		2515B9CB258BE8FE00801369 /* PreemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9CA258BE8FE00801369 /* PreemTests.swift */; };
 		2515B9D6258BE8FE00801369 /* PreemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515B9D5258BE8FE00801369 /* PreemUITests.swift */; };
+		2515B9E9258BFA6F00801369 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2515B9E8258BFA6F00801369 /* CloudKit.framework */; };
+		8A5175DCAFC6A68DBE9C9809 /* Pods_PreemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B713628F186F99EA51C3573E /* Pods_PreemTests.framework */; };
+		B2FB14ED77EC38EA31065D13 /* Pods_Preem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,17 @@
 		2515B9D1258BE8FE00801369 /* PreemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2515B9D5258BE8FE00801369 /* PreemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreemUITests.swift; sourceTree = "<group>"; };
 		2515B9D7258BE8FE00801369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2515B9E6258BF9A200801369 /* Preem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Preem.entitlements; sourceTree = "<group>"; };
+		2515B9E8258BFA6F00801369 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		27F601FFAE659D3B08169A5B /* Pods-PreemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreemTests.release.xcconfig"; path = "Target Support Files/Pods-PreemTests/Pods-PreemTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA7B9C5C38357CFB622781F /* Pods-Preem-PreemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem-PreemUITests.release.xcconfig"; path = "Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		330BFEDBA23D4607FE080925 /* Pods-PreemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreemTests.debug.xcconfig"; path = "Target Support Files/Pods-PreemTests/Pods-PreemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5E09E260D555374B098AE0 /* Pods-Preem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem.release.xcconfig"; path = "Target Support Files/Pods-Preem/Pods-Preem.release.xcconfig"; sourceTree = "<group>"; };
+		8DE2C40EA1449386A1BD5203 /* Pods-Preem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem.debug.xcconfig"; path = "Target Support Files/Pods-Preem/Pods-Preem.debug.xcconfig"; sourceTree = "<group>"; };
+		B713628F186F99EA51C3573E /* Pods_PreemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF32DED0C9D5C9D005197837 /* Pods-Preem-PreemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem-PreemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F25FB3A74F54C1731C74F8 /* Pods_Preem_PreemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preem_PreemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2515B9E9258BFA6F00801369 /* CloudKit.framework in Frameworks */,
+				B2FB14ED77EC38EA31065D13 /* Pods_Preem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5175DCAFC6A68DBE9C9809 /* Pods_PreemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE3F9B1D129193ABF5373AC /* Pods_Preem_PreemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C8585F93F393E90A5986CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2C40EA1449386A1BD5203 /* Pods-Preem.debug.xcconfig */,
+				7D5E09E260D555374B098AE0 /* Pods-Preem.release.xcconfig */,
+				CF32DED0C9D5C9D005197837 /* Pods-Preem-PreemUITests.debug.xcconfig */,
+				2DA7B9C5C38357CFB622781F /* Pods-Preem-PreemUITests.release.xcconfig */,
+				330BFEDBA23D4607FE080925 /* Pods-PreemTests.debug.xcconfig */,
+				27F601FFAE659D3B08169A5B /* Pods-PreemTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2515B9AC258BE8FD00801369 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +112,8 @@
 				2515B9C9258BE8FE00801369 /* PreemTests */,
 				2515B9D4258BE8FE00801369 /* PreemUITests */,
 				2515B9B6258BE8FD00801369 /* Products */,
+				2515B9E7258BFA6F00801369 /* Frameworks */,
+				04C8585F93F393E90A5986CB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +130,7 @@
 		2515B9B7258BE8FD00801369 /* Preem */ = {
 			isa = PBXGroup;
 			children = (
+				2515B9E6258BF9A200801369 /* Preem.entitlements */,
 				2515B9B8258BE8FD00801369 /* PreemApp.swift */,
 				2515B9BA258BE8FD00801369 /* ContentView.swift */,
 				2515B9BC258BE8FE00801369 /* Assets.xcassets */,
@@ -130,6 +166,17 @@
 			path = PreemUITests;
 			sourceTree = "<group>";
 		};
+		2515B9E7258BFA6F00801369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2515B9E8258BFA6F00801369 /* CloudKit.framework */,
+				43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */,
+				F6F25FB3A74F54C1731C74F8 /* Pods_Preem_PreemUITests.framework */,
+				B713628F186F99EA51C3573E /* Pods_PreemTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2515B9DA258BE8FE00801369 /* Build configuration list for PBXNativeTarget "Preem" */;
 			buildPhases = (
+				B7525A11ADB3509758E2FE04 /* [CP] Check Pods Manifest.lock */,
 				2515B9B1258BE8FD00801369 /* Sources */,
 				2515B9B2258BE8FD00801369 /* Frameworks */,
 				2515B9B3258BE8FD00801369 /* Resources */,
+				6B76159AB08777524632CECF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2515B9DD258BE8FE00801369 /* Build configuration list for PBXNativeTarget "PreemTests" */;
 			buildPhases = (
+				601A9D0F62A074EF32ADCAC1 /* [CP] Check Pods Manifest.lock */,
 				2515B9C2258BE8FE00801369 /* Sources */,
 				2515B9C3258BE8FE00801369 /* Frameworks */,
 				2515B9C4258BE8FE00801369 /* Resources */,
@@ -172,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2515B9E0258BE8FE00801369 /* Build configuration list for PBXNativeTarget "PreemUITests" */;
 			buildPhases = (
+				00A27CF437915D8F4AD00817 /* [CP] Check Pods Manifest.lock */,
 				2515B9CD258BE8FE00801369 /* Sources */,
 				2515B9CE258BE8FE00801369 /* Frameworks */,
 				2515B9CF258BE8FE00801369 /* Resources */,
+				BDD264C2B36CA399792EC331 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A27CF437915D8F4AD00817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Preem-PreemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601A9D0F62A074EF32ADCAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PreemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B76159AB08777524632CECF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Preem/Pods-Preem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Preem/Pods-Preem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Preem/Pods-Preem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7525A11ADB3509758E2FE04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Preem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD264C2B36CA399792EC331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2515B9B1258BE8FD00801369 /* Sources */ = {
@@ -414,9 +569,11 @@
 		};
 		2515B9DB258BE8FE00801369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE2C40EA1449386A1BD5203 /* Pods-Preem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Preem/Preem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Preem/Preview Content\"";
 				DEVELOPMENT_TEAM = 5AJ5NZESYF;
@@ -436,9 +593,11 @@
 		};
 		2515B9DC258BE8FE00801369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5E09E260D555374B098AE0 /* Pods-Preem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Preem/Preem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Preem/Preview Content\"";
 				DEVELOPMENT_TEAM = 5AJ5NZESYF;
@@ -458,6 +617,7 @@
 		};
 		2515B9DE258BE8FE00801369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330BFEDBA23D4607FE080925 /* Pods-PreemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +640,7 @@
 		};
 		2515B9DF258BE8FE00801369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F601FFAE659D3B08169A5B /* Pods-PreemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +663,7 @@
 		};
 		2515B9E1258BE8FE00801369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF32DED0C9D5C9D005197837 /* Pods-Preem-PreemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +684,7 @@
 		};
 		2515B9E2258BE8FE00801369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA7B9C5C38357CFB622781F /* Pods-Preem-PreemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

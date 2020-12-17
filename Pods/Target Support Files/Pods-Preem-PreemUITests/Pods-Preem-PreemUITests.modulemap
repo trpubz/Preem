@@ -1,0 +1,6 @@
+framework module Pods_Preem_PreemUITests {
+  umbrella header "Pods-Preem-PreemUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
