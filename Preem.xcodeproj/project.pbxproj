@@ -19,6 +19,7 @@
 		25A0E88E258C0B0B008F35BA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0E88C258C0B0B008F35BA /* Colors.swift */; };
 		8A5175DCAFC6A68DBE9C9809 /* Pods_PreemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B713628F186F99EA51C3573E /* Pods_PreemTests.framework */; };
 		B2FB14ED77EC38EA31065D13 /* Pods_Preem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */; };
+		B3449B8A258C4DFF001A2ADB /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3449B89258C4DFF001A2ADB /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		43BD1C2DF67A9F09E178EC7A /* Pods_Preem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5E09E260D555374B098AE0 /* Pods-Preem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem.release.xcconfig"; path = "Target Support Files/Pods-Preem/Pods-Preem.release.xcconfig"; sourceTree = "<group>"; };
 		8DE2C40EA1449386A1BD5203 /* Pods-Preem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem.debug.xcconfig"; path = "Target Support Files/Pods-Preem/Pods-Preem.debug.xcconfig"; sourceTree = "<group>"; };
+		B3449B89258C4DFF001A2ADB /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		B713628F186F99EA51C3573E /* Pods_PreemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF32DED0C9D5C9D005197837 /* Pods-Preem-PreemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Preem-PreemUITests.debug.xcconfig"; path = "Target Support Files/Pods-Preem-PreemUITests/Pods-Preem-PreemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6F25FB3A74F54C1731C74F8 /* Pods_Preem_PreemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preem_PreemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +196,7 @@
 			children = (
 				25A0E88B258C0B0B008F35BA /* Fonts.swift */,
 				25A0E88C258C0B0B008F35BA /* Colors.swift */,
+				B3449B89258C4DFF001A2ADB /* Onboarding.swift */,
 			);
 			path = "Asset Models";
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 			files = (
 				2515B9BB258BE8FD00801369 /* ContentView.swift in Sources */,
 				25A0E88E258C0B0B008F35BA /* Colors.swift in Sources */,
+				B3449B8A258C4DFF001A2ADB /* Onboarding.swift in Sources */,
 				25A0E88D258C0B0B008F35BA /* Fonts.swift in Sources */,
 				2515B9B9258BE8FD00801369 /* PreemApp.swift in Sources */,
 			);
